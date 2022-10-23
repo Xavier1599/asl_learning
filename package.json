@@ -1,0 +1,25 @@
+{
+  "name": "asl_learning",
+  "version": "1.0.0",
+  "description": "This is the portfolio project to help people that don't know the ASL language can learn for free",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xavier1599/asl_learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xavier1599/asl_learning/issues"
+  },
+  "homepage": "https://github.com/Xavier1599/asl_learning#readme",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}
