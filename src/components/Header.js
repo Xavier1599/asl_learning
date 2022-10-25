@@ -1,10 +1,11 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { AppBar, IconButton, Menu, Toolbar } from "@material-ui/core";
+import { AppBar, colors, IconButton, Menu, Toolbar } from "@material-ui/core";
 import SortIcon from '@material-ui/icons/Sort';
 import { Link } from 'react-router-dom'
 import { MenuItems } from "./MenuItems";
 import "./Header.css"
+import { indigo } from "@material-ui/core/colors";
  
 const useStyles = makeStyles((theme) => ({
     appbar:{
@@ -27,7 +28,8 @@ const useStyles = makeStyles((theme) => ({
         margin: '0 auto',
         fontSize: '3rem',
         flexGrow: '1',
-        position: 'absolute'
+        position: 'absolute',
+        colors: 'indigo'
     },
 
     icon:{

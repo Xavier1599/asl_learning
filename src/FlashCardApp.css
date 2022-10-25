@@ -1,6 +1,7 @@
 body {
     background-color: #C8D0D2;
     margin: 0;
+    margin-top: 10%;
 }
 
 
@@ -10,6 +11,7 @@ body {
 }
 
 .card-grid {
+    
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -17,6 +19,7 @@ body {
 }
 
 .card {
+    margin-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
