@@ -1,0 +1,42 @@
+.HeaderItems {
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.Navbar{
+   color: aliceblue;
+    color: #000;
+    list-style: none;
+    display: flex;
+
+}
+
+.flash {
+    color: #000;
+    text-align: center;
+    list-style: none;
+}
+
+.flashletters, 
+.aboutletters,
+.contactletters{
+    color: aliceblue;
+    text-decoration: none;
+    justify-content: end;
+    gap: 2rem;
+    padding: 0 1rem;
+    text-align: right;
+    font-size:x-large;
+    margin: 0;
+    box-sizing: border-box;
+
+    
+}
+
+.aboutletters:hover,
+.flashletters:hover {
+    background-color: grey;
+    
+}
