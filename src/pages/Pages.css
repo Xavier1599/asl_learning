@@ -1,16 +1,13 @@
-* {
-   background-color: black;
-}
+
 .about {
-    min-height: 100vh;
+    min-height: 50vh;
     width: 88vw;
     padding: 100px 50px 50px 50px;
-    background: black;
     color: rgba(255, 255, 255, 0.8);
     text-align: left;
     font-family: 'Nunito';
     font-size: larger;
     text-align: justify;
     margin: 0;
-    
+    background-color: black;
 }

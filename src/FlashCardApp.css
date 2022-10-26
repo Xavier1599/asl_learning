@@ -4,6 +4,9 @@ body {
     margin-top: 10%;
 }
 
+.logo {
+    max-width: 100%;
+}
 
 .container {
     max-width: 900px;
@@ -46,6 +49,7 @@ body {
 
 .card .front {
     left: 0;
+    
 }
 
 

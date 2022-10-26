@@ -1,9 +1,23 @@
 import React from 'react';
 import './Pages.css'
+import { makeStyles } from '@material-ui/core/styles';
+import Header from '../components/Header';
+import '../components/Header.css'
+
+const useStyles = makeStyles((theme) => ({
+    about: {
+      minHeight: '100vh',
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+      backgroundColor: "black",
+    },
+}));
 
 export function About() {
-   
-    return <div className='about'>
+    const classes = useStyles();
+    return <div className={classes.about}>
+        <div className='about'>
+        <Header />
         <h1>About Us</h1>
         <p> Welcome, to ASL_Learning </p>
         <br />
@@ -17,5 +31,6 @@ export function About() {
           quick and easy. Currently we count with a flash card system of learning
           but we plan to implement other features like quizes and ASL hand reading
           technology.</p>
+      </div>
       </div>
 };

@@ -1,18 +1,16 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { AppBar, colors, IconButton, Menu, Toolbar } from "@material-ui/core";
-import SortIcon from '@material-ui/icons/Sort';
+import { AppBar, IconButton, Toolbar } from "@material-ui/core";
 import { Link } from 'react-router-dom'
-import { MenuItems } from "./MenuItems";
 import "./Header.css"
-import { indigo } from "@material-ui/core/colors";
+
  
 const useStyles = makeStyles((theme) => ({
     appbar:{
-        background:"none",
         fontFamily:"Nunito",
-        flexGrow: '1'
-        
+        flexGrow: '1',    
+        backgroundColor: "black",
+        position: 'absolute', 
     },
 
     appbarTitle:{
@@ -29,12 +27,13 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '3rem',
         flexGrow: '1',
         position: 'absolute',
-        colors: 'indigo'
+
     },
 
     icon:{
         color: '#fff',
         fontSize: '7rem',
+        position: 'absolute'
     }
 }));
 export default function Header() {
@@ -47,7 +46,6 @@ export default function Header() {
                 <li className="flash">
                     <a className="flashletters" href="/flash">FlashCards</a>
                      <a className="aboutletters" href="/about">About</a>
-                     <a className="contactletters">Contact Us</a>
                 </li>
             </ul>
             <IconButton>
