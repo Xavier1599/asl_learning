@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { CssBaseline } from '@material-ui/core';
+import { CssBaseline, } from '@material-ui/core';
 import Header from '../components/Header';
 
 const useStyles = makeStyles((theme) => ({
@@ -10,11 +10,20 @@ const useStyles = makeStyles((theme) => ({
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
   },
+  middle: {
+    display:"flex",
+    justifyContent:'center',
+    alignItems: "center",
+    height:"100vh",
+    color: "white",
+    fontFamily:"Nunito",
+    fontSize:"4.5rem",
+  },
 }));
 export function Home() {
   const classes = useStyles();
   return <div className={classes.root}>
     <CssBaseline />
     <Header />
-  </div>
+    </div>
 }

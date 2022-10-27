@@ -64,6 +64,8 @@ body {
 .card .back{
     transform: rotateY(180deg);
     transform-style: preserve-3d;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 
 .flashcard-options{

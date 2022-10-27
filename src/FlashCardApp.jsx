@@ -6,10 +6,7 @@ import './components/Header'
 import Header from './components/Header';
 
 function FlashCardApp() {
-  const [flashcards, setFlashcards] = useState(SAMPLE_FLASHCARDS)
-
-
-
+  const [flashcards, setFlashcards] = useState(SAMPLE_FLASHCARDS.sort(() => Math.random() - 0.5))
 
 
   return (

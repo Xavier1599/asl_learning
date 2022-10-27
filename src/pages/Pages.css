@@ -11,3 +11,29 @@
     margin: 0;
     background-color: black;
 }
+
+.ASL {
+        min-height: 50vh;
+        width: 88vw;
+        padding: 100px 50px 50px 50px;
+        color: rgba(255, 255, 255, 0.8);
+        text-align: left;
+        font-family: 'Nunito';
+        font-size: larger;
+        text-align: justify;
+        margin-right:auto;
+        background-color: black;
+    }
+
+iframe {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pics {
+    transform: translateX(-50px);
+    display: flex;
+    overflow-x: scroll;
+    width: 100vw;
+}

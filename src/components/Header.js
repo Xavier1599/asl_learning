@@ -6,11 +6,13 @@ import "./Header.css"
 
  
 const useStyles = makeStyles((theme) => ({
+
     appbar:{
         fontFamily:"Nunito",
         flexGrow: '1',    
         backgroundColor: "black",
-        position: 'absolute', 
+        position:"absolute",
+       
     },
 
     appbarTitle:{
@@ -38,7 +40,8 @@ const useStyles = makeStyles((theme) => ({
 }));
 export default function Header() {
     const classes = useStyles();
-    return (<div>
+    return (
+        <div className={classes.root}>
         <AppBar className={classes.appbar} elevation={0}>
             <Toolbar className={classes.appbarWrapper}>
             <Link to="/" className={classes.appbarTitle}>ASL_Learning</Link>
@@ -46,32 +49,13 @@ export default function Header() {
                 <li className="flash">
                     <a className="flashletters" href="/flash">FlashCards</a>
                      <a className="aboutletters" href="/about">About</a>
+                     <a className="ALSletters" href="/ASL">What is ASL?</a>
                 </li>
             </ul>
             <IconButton>
-       
-                
             </IconButton>
             </Toolbar>
         </AppBar>
-    </div>
+        </div>
     );
 }
-
-
-
-
-/*          <SortIcon></SortIcon >
-                    <ul>
-                        {MenuItems.map((item, index) => {
-                            return (
-                            <li key={index}>
-                                <a className={item.cName} href={item.url}>
-                                {item.title}
-                                </a>
-                            </li>
-                            )
-                        })}
-                        
-                    </ul> */
-                
