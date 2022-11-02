@@ -6,7 +6,7 @@ import './components/Header'
 import Header from './components/Header';
 
 function FlashCardApp() {
-  const [flashcards, setFlashcards] = useState(SAMPLE_FLASHCARDS.sort(() => Math.random() - 0.5))
+  const [flashcards] = useState(SAMPLE_FLASHCARDS.sort(() => Math.random() - 0.5))
 
 
   return (
@@ -16,7 +16,7 @@ function FlashCardApp() {
     </div>
   );
 }
-
+/* Flash card array containing ASL alphabet and numbers 0-9 */
 const SAMPLE_FLASHCARDS = [
   {
     id: 1,

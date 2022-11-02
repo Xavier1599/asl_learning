@@ -9,6 +9,7 @@ export default function Flashcard({ flashcard }) {
     const backEl = useRef()
 
     function setMaxHeight() {
+        /* Set max height for flashcards that adjust acording to page size */
         const frontHeight = frontEl.current.getBoundingClientRect().height
         const backHeight = backEl.current.getBoundingClientRect().height
         setHeight(Math.max(frontHeight, backHeight, 100))
@@ -22,6 +23,7 @@ export default function Flashcard({ flashcard }) {
        }, [])
 
     return (
+    /* Flashcard formating as well as flip effect implementation */
     <div 
     className={`card ${flip ? 'flip' : ''}`}
     style={{ height: height }}

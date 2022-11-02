@@ -3,13 +3,11 @@
     justify-content: center;
     align-items: center;
     background-color: black;
-    border-bottom: 10px;
 }
 
 .Navbar{
    color: aliceblue;;
     list-style: none;
-    display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
     border-top: 15rem;

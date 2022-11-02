@@ -39,6 +39,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 export default function Header() {
+    /** Header function made with Material UI stylings and routes for seperate web pages */
     const classes = useStyles();
     return (
         <div className={classes.root}>

@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { CssBaseline, } from '@material-ui/core';
 import Header from '../components/Header';
+import './Pages.css'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -17,8 +18,17 @@ const useStyles = makeStyles((theme) => ({
     height:"100vh",
     color: "white",
     fontFamily:"Nunito",
-    fontSize:"4.5rem",
+    fontSize: "4.5rem",
+    margin:"0"
   },
+  goDown: {
+    display: 'flex',
+    alignItems: 'center',
+    flexWrap: 'wrap',
+    height:"100vh",
+    color:"white",
+    position:"sticky"
+  }
 }));
 export function Home() {
   const classes = useStyles();
@@ -26,4 +36,5 @@ export function Home() {
     <CssBaseline />
     <Header />
     </div>
+  
 }

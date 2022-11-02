@@ -37,3 +37,8 @@ iframe {
     overflow-x: scroll;
     width: 100vw;
 }
+
+.goDown {
+    color: aliceblue;
+    font-size: 4rem;
+}

@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export function About() {
+  /* About section detailing ASL_Learning information */
     const classes = useStyles();
     return <div className={classes.about}>
         <div className='about'>
