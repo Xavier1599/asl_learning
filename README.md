@@ -27,4 +27,5 @@ Fernando Aponte:
 * [Github](https://github.com/fernan17893) 
 
 Xavier Perez 
+* xavierperez1599@gmail.com
 * [Github](https://github.com/Xavier1599)
