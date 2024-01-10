@@ -20,6 +20,10 @@ The home page section contains various routes that can send you to our features.
 Flashcard grid with pictures of hand signs once you click on them the answer is on the flip side of the card. We also have 
 the What is ASL section with a background on what ASL is.
 
+![alt text](./public/assets/flashcards_Off.png)
+
+![alt text](./public/assets/flashcards_On.png)
+
 ## Contributing
 
 Fernando Aponte:  
